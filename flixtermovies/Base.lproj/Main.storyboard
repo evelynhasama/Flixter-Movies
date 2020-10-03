@@ -175,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="19" y="1436"/>
         </scene>
-        <!--Trailer View Controller-->
+        <!--Movie Trailer View Controller-->
         <scene sceneID="WK8-Dz-SRZ">
             <objects>
-                <viewController id="g36-MY-a6i" customClass="TrailerViewController" customModule="flixtermovies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g36-MY-a6i" customClass="MovieTrailerViewController" customModule="flixtermovies" customModuleProvider="target" sceneMemberID="viewController">
                     <wkWebView key="view" contentMode="scaleToFill" id="dCC-Nv-rJQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -189,7 +189,7 @@
                         </wkWebViewConfiguration>
                     </wkWebView>
                     <connections>
-                        <outlet property="webView" destination="dCC-Nv-rJQ" id="Bjg-3d-eae"/>
+                        <outlet property="webView" destination="dCC-Nv-rJQ" id="i06-bH-2ia"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NiZ-ai-cnT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

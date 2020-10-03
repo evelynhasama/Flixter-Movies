@@ -79,7 +79,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         let movie = movies[indexPath.item]
     
         //Pass the selected movie to the details view controller
-        let videotrailerViewController = segue.destination as! TrailerViewController
+        let videotrailerViewController = segue.destination as! MovieTrailerViewController
         videotrailerViewController.movie = movie
     
     }
